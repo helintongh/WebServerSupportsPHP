@@ -56,7 +56,7 @@ int main()
     printf("post data lenght is 357: %d\n", strlen(post_data));
 
     char *params[][2] = {
-        {"SCRIPT_FILENAME", "/home/zhou/php-server/test/test.php"},
+        {"SCRIPT_FILENAME", "/home/hlt/php-server/test/test.php"},
         {"REQUEST_METHOD", "POST"},
         //{"QUERY_STRING", "name=test"},
         {"CONTENT_TYPE", "multipart/form-data;boundary=----WebKitFormBoundaryabcdefgh"},
